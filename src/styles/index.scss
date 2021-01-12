@@ -4,56 +4,51 @@
 .trafficlight {
     background: black;
     height: 400px;
-    width: 200px;
-    align-content: center;
+    width: 150px;
+    margin: auto;
+    justify-content: center;
 }
-.green-light {
+
+.light-off {
     border-radius: 50%;
-    align-content: center;
+    margin: auto;
+    justify-content: center;
     background-color: grey;
     border: 2px solid white;
 }
 
 .green-selected {
     background-color: green;
+    margin: auto;
     border: 2px solid black;
-    align-content: center;
-    box-shadow: 20px 20px 50px 10px lightgreen;
+    justify-content: center;
+    box-shadow: inset 10px 10px 40px 10px lightgreen;
     border-radius: 50%;
 }
 
-.yellow-light {
-    border-radius: 50%;
-    background-color: grey;
-    border: 2px solid white;
-        align-content: center;
-
-}
 .yellow-selected {
     background-color: yellow;
     border: 2px solid black;
-    box-shadow: 20px 20px 50px 10px lightyellow;
+    margin: auto;
+    box-shadow: inset 10px 10px 40px 10px lightyellow;
     border-radius: 50%;
+    justify-content: center;
 }
 
-.red-light {
-    border-radius: 50%;
-        align-content: center;
-
-    background-color: grey;
-    border: 2px solid white;
-}
 .red-selected {
     background-color: red;
+    margin: auto;
     border: 2px solid black;
-    box-shadow: 20px 20px 50px 10px lightcoral;
+    box-shadow: inset 10px 10px 40px 10px lightcoral;
     border-radius: 50%;
+    justify-content: center;
 }
 
 .trafficlight div {
+    margin: auto;
     height: 130px;
     width: 140px;
-    align-content: center;
+    justify-content: center;
 }
 
 /* 

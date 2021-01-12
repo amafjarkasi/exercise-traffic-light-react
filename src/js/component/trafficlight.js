@@ -19,23 +19,27 @@ export const TrafficLight = () => {
 	);
 	return (
 		<>
-			<div className="trafficlight rounded-lg">
-				<div
-					className={color === "red" ? "red-selected" : "red-light"}
-					onClick={() => setColor("red")}
-				/>
-				<div
-					className={
-						color === "yellow" ? "yellow-selected" : "yellow-light"
-					}
-					onClick={() => setColor("yellow")}
-				/>
-				<div
-					className={
-						color === "green" ? "green-selected" : "green-light"
-					}
-					onClick={() => setColor("green")}
-				/>
+			<div className="container mt-3">
+				<div className="trafficlight rounded-lg pt-1">
+					<div
+						className={
+							color === "red" ? "red-selected" : "light-off"
+						}
+						onClick={() => setColor("red")}
+					/>
+					<div
+						className={
+							color === "yellow" ? "yellow-selected" : "light-off"
+						}
+						onClick={() => setColor("yellow")}
+					/>
+					<div
+						className={
+							color === "green" ? "green-selected" : "light-off"
+						}
+						onClick={() => setColor("green")}
+					/>
+				</div>
 			</div>
 		</>
 	);
