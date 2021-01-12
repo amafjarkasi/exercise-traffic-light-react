@@ -1,10 +1,6 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# Traffic Light React Exercise
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+Utilizes react and setInterval to change the traffic light colors every 3 seconds
 
 ##### Download the boilerplate using git
 
